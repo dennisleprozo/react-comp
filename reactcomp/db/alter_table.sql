@@ -1,0 +1,2 @@
+ALTER TABLE Persons 
+RENAME COLUMN PersonID TO Person_id;
