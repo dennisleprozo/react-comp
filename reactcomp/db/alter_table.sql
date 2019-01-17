@@ -1,2 +1,2 @@
-ALTER TABLE Persons 
-RENAME COLUMN PersonID TO Person_id;
+ALTER TABLE Persons
+ADD Email varchar(255);
