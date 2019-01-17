@@ -1,17 +1,9 @@
 import React from 'react';
 
-function Name(props) {
+export default function Name(props) {
    return (
       <div>
-         
+         {this.props.Name}
       </div>
    );
-
-
-export default Name(props) {
-   return (
-      <div>
-         
-      </div>
-   );
-;
+   }

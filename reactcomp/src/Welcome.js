@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
+import Name from './Name'
 
 class Welcome extends Component {
+   constructor(){
+      super()
+
+      this.state = {
+         name: 'Dennis'
+      }
+   }
    render() {
       return (
          <div>
-            Hello, {this.props.name}
+            Hello
+            <Name 
+            name={this.state.name}
+            />
          </div>
       );
    }
