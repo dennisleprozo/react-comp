@@ -1,2 +1,3 @@
-ALTER TABLE Persons
-ADD Email varchar(255);
+-- back view image
+ALTER TABLE product
+ADD img2 text;
